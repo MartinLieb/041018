@@ -8,11 +8,11 @@ public class Main {
 
         Dog vito = new Dog();
 
-        vito.getAge() = 4;
-        vito.getAntalBen() = 4;
-        vito.getBreed() = "samoyede";
-        vito.getColor() = Color.WHITE;
-        vito.getNavn() = "Vito";
+        vito.setAge(4);
+        vito.setAntalBen(4);
+        vito.setBreed() = "samoyede";
+        vito.setColor() = Color.WHITE;
+        vito.setNavn() = "Vito";
         vito.eat() = false;
         vito.run() = false;
 
