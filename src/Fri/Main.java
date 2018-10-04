@@ -13,7 +13,9 @@ public class Main {
         vito.getBreed() = "samoyede";
         vito.getColor() = Color.WHITE;
         vito.getNavn() = "Vito";
-        vito.eat();
+        vito.eat() = false;
+        vito.run() = false;
+
 
 
 

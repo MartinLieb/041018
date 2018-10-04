@@ -8,11 +8,14 @@ public class Dog {
     private int antalBen = 4;
     private String navn = "";
     private String breed = "";
-    private double sizeKilos = "";
+    private double sizeKilos = "20";
     private Color color = new Color(1,2,3);
     private int age = 0;
 
     // 2. Constructor
+    public Dog() {
+        System.out.println("Et nyt dog object er oprettet");
+    }
 
     // 3. Metoder, methods, functions
     public void eat() {}
